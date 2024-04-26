@@ -1,0 +1,95 @@
+:root{
+    --color_beige: #F5DAD2;
+    --color_vanilla: #FCFFE0;
+    --color_lgreen: #BACD92;
+    --color_dgreen: #75A47F;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: auto;
+    background-color: var(--color_beige);
+    /* text-align: center; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*  #region Header */
+header{
+    text-align: end;
+    margin: 1rem;
+    margin-inline: 2rem;
+    
+}
+header a{
+    padding: 1rem;
+}
+header a:hover{
+    color: var(--color_dgreen);
+}
+/*  #endregion */
+
+/*  #region Nav és Gombok */
+nav{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-end;
+    /* border-bottom: 2px solid black; */
+    background-color: var(--color_dgreen);
+    /* box-shadow: rgba(0, 0, 0, 0.24) 100px; */
+}
+#logo{
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: 600;
+    top: 1rem;
+    left: 1rem;
+}
+.nav_buttons{
+    margin-inline: 2rem;
+    margin-block: 1.2rem;
+    
+}
+.nav_buttons a{
+    padding: 1rem;
+}
+.nav_buttons a:hover{
+    background-color: var(--color_lgreen);
+    color: #f1f1f1;
+}
+/*  #endregion */
+
+/*  #region Landing section */
+#landing{
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+}
+/* #endregion */
+
+/* #region Szolgáltatások */
+#services{
+    text-align: center;
+}
+#services a{
+    
+}
+/* #endregion */
+
+/* #region Szolgáltatások */
+#projects{
+    text-align: center;
+}
+/* #endregion */
+
+/* #region Szolgáltatások */
+#contact{
+    text-align: center;
+}
+/* #endregion */
