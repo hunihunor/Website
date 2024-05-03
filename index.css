@@ -4,20 +4,50 @@
     --color_lgreen: #BACD92;
     --color_dgreen: #75A47F;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
+/* #region Fonts */
+.font_title800{
+        font-family: "Rubik Mono One", monospace;
+        font-weight: 800;
+        font-style: normal;
+}
+.font_title400{
+        font-family: "Rubik Mono One", monospace;
+        font-weight: 400;
+        font-style: normal;
+}
+.font_text{
+    font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+/* #endregion */
+
 body{
     margin: auto;
     background-color: var(--color_beige);
+    width: fit-content;
     /* text-align: center; */
 }
 a{
     text-decoration: none;
     color: black;
+}
+section h1{
+    font-family: "Rubik Mono One", monospace;
+        font-weight: 800;
+        font-style: normal;
+    
+        text-align: center;
+        font-size: 4rem;
+        padding-top: 2rem;
+        color: var(--color_dgreen);
 }
 /*  #region Header */
 header{
@@ -28,6 +58,9 @@ header{
 }
 header a{
     padding: 1rem;
+    font-family: "Rubik Mono One", monospace;
+        font-weight: 400;
+        font-style: normal;
 }
 header a:hover{
     color: var(--color_dgreen);
@@ -58,6 +91,9 @@ nav{
 }
 .nav_buttons a{
     padding: 1rem;
+    font-family: "Rubik Mono One", monospace;
+        font-weight: 800;
+        font-style: normal;
 }
 .nav_buttons a:hover{
     background-color: var(--color_lgreen);
@@ -68,17 +104,16 @@ nav{
 /*  #region Landing section */
 #landing{
     background-color: black;
-    height: 70vh;
+    height: 78vh;
     width: 100vw;
 }
 /* #endregion */
 
 /* #region Szolgáltatások */
-#services{
-    text-align: center;
-}
-#services a{
-    
+#services_grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 /* #endregion */
 
