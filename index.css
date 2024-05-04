@@ -32,6 +32,7 @@
 body{
     margin: auto;
     background-color: var(--color_beige);
+    width: fit-content;
     /* text-align: center; */
 }
 a{
